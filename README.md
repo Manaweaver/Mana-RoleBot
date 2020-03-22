@@ -29,7 +29,14 @@ The following commands are then available to your users:
 !role --help
 
 // Join a role
-!role <role name>
+!addrole <role name>
+
+// Leave a role
+!removerole <role name>
+
+// List available roles
+!rolelist
+
 ```
 
 
@@ -37,6 +44,3 @@ The following commands are then available to your users:
 - [Discord Docs](https://discordapp.com/developers/)
 - [Obtain a Key by creating an App here](https://discordapp.com/developers/applications/me) (must be logged in)
 
-
-## Contribute
-If you'd like to contribute feel free to fork and submit a PR.
